@@ -8,9 +8,9 @@
 	font-family: "Poppins", sans-serif;
 }
 .wrapper{
-	color:#fff;
+	
 	width:420px;
-	background:#5D59B2 ;
+	background-color: rgba(120,26,152,0.5);
 	border-radius: 10px;
 	padding: 30px 40px;
 }
@@ -20,7 +20,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background:url("image/back.jpg") no-repeat;
+	background:url("back.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 	
@@ -28,8 +28,10 @@ body{
 .wrapper h1{
 	font-size: 36px;
 	text-align: center;
+	color: aliceblue;
 }
 .wrapper input-box{
+	color: #9431B9;
 	width:100%;
 	height: 50px;
 	margin: 15px 0;
@@ -42,16 +44,23 @@ body{
 	border: none;
 	outline: none;
 	border: 20px solid rgba(255,255,255,.2);
-	border-radius: 40px;
+	border-radius: 30px;
 	font-size: 16px;
-	color: #1B1414;
+	color:#9431B9;
 	padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder{
-	color:#EFD2D2:
+	color:#9431B9:
 }
-
+.input-box i{
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 20px;
+	
+}
 
 .wrapper .remember-forgot{
 	display: flex;
@@ -61,12 +70,13 @@ body{
 }
 
 .data lables input{
-	accent-color:#fff;
+	accent-color:#BE76CB;
 	margin-right: 3px;
+	color: aliceblue;
 }
 
 .remember-forgot a{
-	color: #F7EFEF;
+	color:#C276D2;
 	text-decoration: none;
 }
 
@@ -74,17 +84,18 @@ body{
 	text-decoration: underline;
 }
 
-.wrapper .btn{
+ .btn{
+	 text-align: center;
 	width: 100%;
-	height: 45px;
-	background: #CEC3C3;
+	height: 40px;
+	background:#9431B9;
 	border: none;
 	outline: none;
 	border-radius: 40px;
-	box-shadow: 0 0 10px rgba(0, 0, 0,.1);
+	/*box-shadow: 0 0 10px rgba(0, 0, 0,.1);*/
 	cursor: pointer;
-	font-size: 16px;
-	color: #333;
+	font-size: 20px;
+	color:aliceblue;
 	font-weight: 600;
 }
 
@@ -92,11 +103,20 @@ body{
 	font-size: 14px;
 	text-align: center;
 	margin: 20px 0 15px;
+	color: aliceblue;
 	
 }
 
 .register-link p a {
-	color: #fff;
+	color:aliceblue;
 	text-decoration: none;
 	font-weight: 600;
+	color: aliceblue;
+}
+.remember-forgot .checkbox{
+	color: aliceblue;
+}
+
+.a{
+	color: #F1EDED;
 }
